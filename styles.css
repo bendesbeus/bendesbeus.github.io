@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: white;
+    background-image: url("assets/background.png");
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background: #333333;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    display: block;
+    color: #ff0099;
+    font-size: 15px;
+    font-weight:900;
+    text-transform: uppercase;
+    margin-left: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.hero {
+    padding: 120px 0;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #ff0099;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h4 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+.hero > p {
+    margin: 30px 30px 0 0;
+}
+
+.wiki {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.def {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+    .main-nav a {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:1230px){
+    .main-nav a {
+        font-size: 22px;
+    }
+}
